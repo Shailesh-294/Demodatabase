@@ -3,6 +3,7 @@ package com.example.demodatabase;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.database.Cursor;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -39,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 if(result){
                     Toast.makeText(MainActivity.this, "Data Inserted Successfully", Toast.LENGTH_SHORT).show();
                     fname.setText("");
+                    fname.setTextColor(Color.WHITE);
                     lname.setText("");
                     marks.setText("");
                     fname.requestFocus();
