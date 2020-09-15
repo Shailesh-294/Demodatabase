@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
                 if(result){
                     Toast.makeText(MainActivity.this, "Data Inserted Successfully", Toast.LENGTH_SHORT).show();
                     fname.setText("");
-                    fname.setTextColor(Color.WHITE);
                     lname.setText("");
                     marks.setText("");
                     fname.requestFocus();
